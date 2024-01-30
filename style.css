@@ -1,0 +1,230 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+/*body {*/
+/*    background: silver;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.todo {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    width: 750px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+/*input  {*/
+/*    border: 2px solid teal;*/
+/*    font-size: 20px;*/
+/*    width: 500px;*/
+/*    height: 40px;*/
+/*    padding-left: 5px;*/
+/*}*/
+
+
+/*#create_button {*/
+/*    border: 2px solid teal;*/
+/*    width: 240px;*/
+/*    height: 40px;*/
+/*    cursor: pointer;*/
+/*    background: rgba(0, 0, 0, 0.1);*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*#todo_list {*/
+/*    margin: 0 auto;*/
+/*    width: 750px;*/
+/*}*/
+
+
+/*.block_text {*/
+/*    width: 100%;*/
+/*    border: 2px solid teal;*/
+/*    padding: 8px;*/
+/*    margin-top: 10px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+/*h3 {*/
+/*    font-size: 25px;*/
+/*}*/
+
+/*.div_buttons {*/
+/*    display: flex;*/
+/*    width: 320px;*/
+/*    height: 100%;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.delete_button {*/
+/*    width: 150px;*/
+/*    height: 40px;*/
+/*    background-color: darkred;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*.edit_button {*/
+/*    width: 150px;*/
+/*    height: 40px;*/
+/*    background-color: darkgreen;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+    padding: 20px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input{
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_button {
+    border: 2px solid teal;
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.1);
+    font-size: 20px;
+}
+
+#todo_list{
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.div_buttons {
+    display: flex;
+    width: 320px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.delete_button {
+    width: 150px;
+    height: 40px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit_button {
+    width: 150px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle {
+    text-decoration: line-through;
+}
+
+.modal{
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background: rgba(150,100,50, 0.5);
+}
+.modal_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap:40px
+}
+.exit_button{
+    height: 40px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    background: red;
+}
+
+.edit_value{
+    height: 40px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    background: green;
+}
+
+.counter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.plus{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: 3px solid transparent;
+}
+.minus{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 3px solid transparent;
+
+}
+
+
